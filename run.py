@@ -2,7 +2,6 @@ import configparser
 import os
 import time
 
-
 config = configparser.ConfigParser()
 
 option = input('Do you want to enter a new configuration or load the previous one? N(ew) / P(revious) ')
