@@ -11,7 +11,7 @@ if option == "N":
     password = input('Enter the password used on Facebook: ')
     message = input('Enter the text of the message you want to send: ')
     receiver = input('Enter the EXACT name of the chat which has to receive the message: ')
-    time = str(input('Enter the time of sending the message (HOUR: MINUTE) (15:03): '))
+    time = str(input('Enter the time of sending the message (HOUR:MINUTE) (15:03): '))
 
     config.add_section('MainData')
     config.set('MainData', 'user', user)
